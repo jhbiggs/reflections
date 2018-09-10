@@ -1,0 +1,15 @@
+Notes on Udacity tutorial on using Git and GitHub
+-u means unified through Unix/Mac when using diff.  I wonder what happens when I don't use -u?
+comparing files didn't show me the right lines, though.  Where would I find out which lines are shown? - Ok, it does show, but it shows at the beginning of a block
+How did viewing a diff between two versions of a file help you see the bug that was introduced? It showed the specific lines and code that was different
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?  I could look at a previous file version to compare to the new one when I notice a problem that wasn't there before.  It makes me a spelunker of programming files and a historian.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?Pros: you can choose when to save, when not to save: therefore you save things that will be complete and useful, and will compile.  Con: If you forget to save, you're back at square one if you lose the file through power outage or other error.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?  Git packs all the relevant and affected files together and commits them.  It helps because it recognizes which files will be connected, and which won't. Google Docs treats each file separately because it assumes there is no connection from one to another.  Its typical user doesn't work on more than one file at a time and/or organizes interconnected files through their file system.
+
+How can you use the commands git log and git diff to view the history of files? Git log shows the examples of each commit that occurred on a repository.  Git diff shows the differences between one commit and the next.  I could use them to identify which commits have which differences.
+
+How might using version control make you more confident to make changes that could break something? Version control enables you to go back and access versions that worked when you mess something up.
+
+Now that you have your workspace set up, what do you want to try using Git for?  I"d like to use GIT to develop a database access system for my school.  I'd like to contribute and play with some projects to get practice coding.
