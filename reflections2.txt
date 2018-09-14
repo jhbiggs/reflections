@@ -1,1 +1,9 @@
 How is the staging area different from the working directory and the repository? What value do you think it offers? Staging area is the place to put files for a new commit.  Working directory is your site for everything from an entire repository, not yet committed to the remote.  The value is that you have the choice to commit only certain files to the remote with the staging area.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can add whichever files you need to commit to the master, hence you can group them according to logic.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would help if I am initiating a new change that I might not be able to commit yet, or that I'm not sure if it will work.
