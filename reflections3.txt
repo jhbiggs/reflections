@@ -1,0 +1,6 @@
+This is a test reflection page.
+git config --global core.editor "open -a 'Sublime Text' -W"
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+The copy of the last known state makes it possible to keep an original version if you need to go back to it, and to identify changes you made locally and without internet access.
